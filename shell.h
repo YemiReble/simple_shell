@@ -14,8 +14,8 @@
 
 
 
-/* Macros and prototype function
-   for getline section */
+/* Macros and prototype function*/
+/*for getline section */
 #define USE_GETLINE 0
 size_t input_buf(info_t *info, char **buf, size_t *len);
 
