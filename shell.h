@@ -19,7 +19,18 @@
 #define USE_GETLINE 0
 size_t input_buf(info_t *info, char **buf, size_t *len);
 
-
+/**
+ * struct liststr - singly linked list
+ * @num: the number nodes
+ * @str: string stringing :)
+ * @next: point to the next node
+ */
+typedef struct liststr
+{
+	int num;
+	char *str;
+	struct liststr *next;
+} list_t;
 
 /**
  *struct getinfo - contains pseudo-arguements to pass into a function.
