@@ -5,7 +5,7 @@
 [x] Group project
 [x] Syscall
 
-###Compilation & Testing
+### Compilation & Testing
 This shell can be compiled this way for testing:
 
 	gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
