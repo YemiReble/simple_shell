@@ -33,4 +33,4 @@ Non-interactive mode:
 	hsh main.c shell.c test_ls_2
 	hsh main.c shell.c test_ls_2
 	$
-Section waiting for more updates...
+
