@@ -97,7 +97,7 @@ User hits Ctrl+d in the third line.
 
  - GitHub: [@yemireble](https://github.com/yemireble)
  - Twitter: [@yemireble](https://twitter.com/yemireble)
- - LinkedIn: [LinkedIn](https://linkedin.com/in/)
+ - LinkedIn: [LinkedIn](https://linkedin.com/in/abodunrin-sulaimon-a67217186/)
 
 
  👤 **INENE ISRAEL OLUWANIYI**
