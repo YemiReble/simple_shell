@@ -7,7 +7,7 @@
 - [x] Betty linter
 
 ## Introduction
-This is a simple shell program inspired by early Unix shell like the Thompson, Korn, and C shells. *Inene Oluwaniyi Israel* and *Sulaimon Abodunrin Opeyemi* wrote it as ALX School project. The shell provides an interface for users to interact with the kernel, as well as a number of built-in tools to facilitate this interaction. In interactive mode as seen below, the program solicits a command line from the user via the terminal, parses this input for valid commands, and executes them. 
+This is a simple shell program inspired by early Unix shell like the Thompson, Korn, and C shells. **Inene Oluwaniyi Israel** and **Sulaimon Abodunrin Opeyemi** wrote it as ALX School project. The shell provides an interface for users to interact with the kernel, as well as a number of built-in tools to facilitate this interaction. In interactive mode as seen below, the program solicits a command line from the user via the terminal, parses this input for valid commands, and executes them. 
 
 Users can also pipe output from other commands into the shell to run it in non-interactive mode. In this mode, the shell will not prompt the user for input and will exit automatically when the commands received are completed. Refer to the included man page for more information on functionality and support.
 
