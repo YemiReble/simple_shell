@@ -11,7 +11,7 @@ This is a simple shell program inspired by early Unix shells like the Thompson, 
 
 Users can also pipe output from other commands into the shell to run it in non-interactive mode. In this mode, the shell will not prompt the user for input and will exit automatically when the commands received are completed. Refer to the included man page for more information on functionality and support.
 
-### General Requirement for project
+### General Project Requirement
 * All files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 * All files should end with a new line
 * A README.md file, at the root of the folder of the project is mandatory
@@ -96,7 +96,7 @@ User hits Ctrl+d in the third line.
  👤 **SULAIMON ABODUNRIN OPEYEMI**
 
  - GitHub: [@yemireble](https://github.com/yemireble)
- - Twitter: [@ehoneahobed](https://twitter.com/yemireble)
+ - Twitter: [@yemireble](https://twitter.com/yemireble)
  - LinkedIn: [LinkedIn](https://linkedin.com/in/)
 
 
