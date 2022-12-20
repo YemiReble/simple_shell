@@ -7,7 +7,92 @@
 - [x] Betty linter
 
 ## Introduction
-This is a simple shell program inspired by early Unix shell like the Thompson, Korn, and C shells. **Inene Oluwaniyi Israel** and **Sulaimon Abodunrin Opeyemi** wrote it as ALX School project. The shell provides an interface for users to interact with the kernel, as well as a number of built-in tools to facilitate this interaction. In interactive mode as seen below, the program solicits a command line from the user via the terminal, parses this input for valid commands, and executes them. 
+This is a simple shell program inspired by early Unix shell like the Thompson, Korn, and C shells. **Inene Oluwaniyi Israel** and **Sulaimon Abodunrin Opeyemi** wrote it as ALX School project. The shell provides an interface for users to interact with the kernel, as well as a number of built-in tools to facilitate this interaction. In interactive mode as seen below, the program solicits a command line from the user via the terminal, parses this input for valid commands, and executes them.
+
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+{
+	static int i;
+	static char buf[WRITE_BUF_SIZE];
+
+	if (c == BUF_FLUSH || i >= WRITE_BUF_SIZE)
+	{
+		write(1, buf, i);
+		i = 0;
+	}
+	if (c != BUF_FLUSH)
+		buf[i++] = c;
+	return (1);
+}
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+{
+	static int i;
+	static char buf[WRITE_BUF_SIZE];
+
+	if (c == BUF_FLUSH || i >= WRITE_BUF_SIZE)
+	{
+		write(1, buf, i);
+		i = 0;
+	}
+	if (c != BUF_FLUSH)
+		buf[i++] = c;
+	return (1);
+}
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+{
+	static int i;
+	static char buf[WRITE_BUF_SIZE];
+
+	if (c == BUF_FLUSH || i >= WRITE_BUF_SIZE)
+	{
+		write(1, buf, i);
+		i = 0;
+	}
+	if (c != BUF_FLUSH)
+		buf[i++] = c;
+	return (1);
+}
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+{
+	static int i;
+	static char buf[WRITE_BUF_SIZE];
+
+	if (c == BUF_FLUSH || i >= WRITE_BUF_SIZE)
+	{
+		write(1, buf, i);
+		i = 0;
+	}
+	if (c != BUF_FLUSH)
+		buf[i++] = c;
+	return (1);
+}
 
 Users can also pipe output from other commands into the shell to run it in non-interactive mode. In this mode, the shell will not prompt the user for input and will exit automatically when the commands received are completed. Refer to the included man page for more information on functionality and support.
 
@@ -103,5 +188,5 @@ User hits Ctrl+d in the third line.
  👤 **INENE ISRAEL OLUWANIYI**
 
  - GitHub: [@israel-09](https://github.com/israel-09)
- - LinkedIn: [LinkedIn](linkedin.com/in/????)
- - Twitter: [@????](https://twitter.com/?????)
+ - LinkedIn: [LinkedIn](https://www.linkedin.com/in/isreal-inene-b9779a257)
+ - Twitter: [@israel_inene](https://twitter.com/israel_inene)
