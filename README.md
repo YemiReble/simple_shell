@@ -23,9 +23,9 @@ Users can also pipe output from other commands into the shell to run it in non-i
 
 ### Compilation & Testing
 This shell can be compiled this way for testing:
-
-	gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-
+```
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+```
 #### Testing
 Interactive mode:
 
